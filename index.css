@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&family=Playfair+Display:wght@500&display=swap");
+
+.head {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 2em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.head h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+}
+
+.head img {
+    height: 9em;
+}
+
+.head-content {
+    text-align: left;
+}
+
+.about {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    text-align: center;
+    padding: 1em 2em;
+    background-color: #eee;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
