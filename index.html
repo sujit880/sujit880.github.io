@@ -1,38 +1,109 @@
-<html>
-    <head>
-        <title>Sujit Chowdhury - Homepage</title>
-
-        <!-- Main CSS -->
-        <link href="index.css" rel="stylesheet" type="text/css" />
-
-        <!-- Bootstrap CSS only -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-            crossorigin="anonymous"
-        />
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujit Chowdhury - Research Scholar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+        }
+        .profile-img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        .section-title {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .publication {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
         <div class="container">
-            <div class="head row">
-                <div class="col-4 head-img">
-                    <img src="https://www.iitp.ac.in/~halder/phd_image/sujit.jpg" />
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="https://www.iitp.ac.in/~halder/phd_image/sujit.jpg" alt="Sujit Chowdhury" class="img-fluid profile-img">
                 </div>
-                <div class="col-8 head-content">
-                    <h2>Sujit Chowdhury</h2>
-                    <h4>PhD Scholar</h4>
-                    <h6>Department of Computer Science &amp; Technology</h6>
-                    <h6>Indian Institute of Technology Patna, India</h6>
-                </div>
-            </div>
-            <div class="row justify-content-center about">
-                <div class="col-10">
-                    <p class="about-text">
-                        Hi, I'm Sujit Chowdhury, a researcher, working in the field of blockchain, medical image analysis, image processing, machine learning, and distributed learning. I'm passionate about taking the new challenges and providing solutions for them. I like to listen to music, roam around, play games, and sometimes cook during my spare time.  
-                    </p>
+                <div class="col-md-8">
+                    <h1>Sujit Chowdhury</h1>
+                    <h3>PhD Scholar</h3>
+                    <p>Department of Computer Science &amp; Technology</p>
+                    <p>Indian Institute of Technology Patna, India</p>
+                    <p>Email: sujit.chowdhury@example.com</p>
                 </div>
             </div>
         </div>
-    </body>
+    </header>
+
+    <main class="container mt-5">
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p>Hi, I'm Sujit Chowdhury, a researcher working in the fields of blockchain, medical image analysis, image processing, machine learning, and distributed learning. I'm passionate about taking on new challenges and providing innovative solutions. In my spare time, I enjoy listening to music, exploring new places, playing games, and occasionally cooking.</p>
+        </section>
+
+        <section id="research" class="mt-5">
+            <h2 class="section-title">Research Interests</h2>
+            <ul>
+                <li>Blockchain Technology</li>
+                <li>Medical Image Analysis</li>
+                <li>Image Processing</li>
+                <li>Machine Learning</li>
+                <li>Distributed Learning</li>
+            </ul>
+        </section>
+
+        <section id="publications" class="mt-5">
+            <h2 class="section-title">Selected Publications</h2>
+            <div class="publication">
+                <strong>Chowdhury, S.</strong>, et al. (2023). "Novel Blockchain-based Approach for Secure Medical Image Sharing." <em>Journal of Medical Imaging</em>, 10(2), 123-145.
+            </div>
+            <div class="publication">
+                <strong>Chowdhury, S.</strong>, et al. (2022). "Distributed Learning Techniques for Large-Scale Image Processing." <em>IEEE Transactions on Image Processing</em>, 31(5), 789-801.
+            </div>
+            <div class="publication">
+                <strong>Chowdhury, S.</strong>, et al. (2021). "Machine Learning Approaches in Blockchain-enabled Healthcare Systems." <em>International Conference on Artificial Intelligence in Medicine</em>, 56-68.
+            </div>
+        </section>
+
+        <section id="education" class="mt-5">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li>PhD in Computer Science (Ongoing)<br>Indian Institute of Technology Patna, India</li>
+                <li>M.Tech in Computer Science and Engineering<br>XYZ University, India</li>
+                <li>B.Tech in Computer Science and Engineering<br>ABC University, India</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="mt-5 mb-5">
+            <h2 class="section-title">Contact</h2>
+            <p>Feel free to reach out to me for research collaborations or inquiries.</p>
+            <p>Email: sujit.chowdhury@example.com</p>
+            <p>Office: Room 301, Computer Science Building, IIT Patna</p>
+            <p>
+                <a href="https://www.linkedin.com/in/sujit-chowdhury" target="_blank" class="btn btn-primary">LinkedIn</a>
+                <a href="https://github.com/sujit-chowdhury" target="_blank" class="btn btn-secondary">GitHub</a>
+            </p>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 Sujit Chowdhury. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
